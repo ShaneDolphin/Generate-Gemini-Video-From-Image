@@ -52,12 +52,8 @@ The script includes several parameters that can be customized in the `payload` s
 "parameters": {
     "resolution": "1080p",        # Options: "720p", "1080p"
     "aspectRatio": "16:9",        # Options: "16:9", "9:16", "1:1"
-    "includeAudio": "false",         # Options: Note, I need to check the documentation because this doesn't appear to be supported. If you're using Veo 3, you'll have to stick with just this
-    # Additional parameters you can add:
-    # "duration": 5,              # Video length in seconds (1-10) (This won't work with Veo3)
-    # "fps": 24,                  # Frames per second (24, 30, 60) (This won't work with Veo3)
-    # "style": "realistic",       # Style options: "realistic", "animated", "cinematic" (This won't work with Veo3)
-    # "motionIntensity": "medium" # Motion level: "low", "medium", "high" (This won't work with Veo3)
+    "generateAudio": "false",     # Options: Accepted values are "true" or "false"
+    "durationSeconds": "8",       # Accepted values are "4", "6" or "8"
 }
 ```
 
