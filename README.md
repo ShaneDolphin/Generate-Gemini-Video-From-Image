@@ -12,7 +12,7 @@ Edit line 124 in `generate_video.py` to use your own Google Gemini API key:
 api_key = "YOUR_API_KEY_HERE"
 ```
 
-Replace `"AIzaSyAVYiGhEaghTOoRtJNMNpxZZkq7gU_Yjd4"` with your actual API key from the Google AI Studio.
+Replace `"yourGoogleGeminiAPIkeywillgohere"` with your actual API key from the Google AI Studio.
 
 ### 2. Change the Starter Image Path
 
